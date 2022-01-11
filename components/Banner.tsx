@@ -1,31 +1,31 @@
 import Image from "next/image";
-import files from "../images/illustration-1.svg";
+import illustration1 from "../images/illustration-1.svg";
 
 export default function Banner() {
   return (
-    <div className="flex flex-row justify-between items-center">
-      <div className="flex flex-col my-4 w-md">
-        <h1 className="font-raleway font-black text-4xl items-start my-4 leading-snug">
+    <div className="flex flex-col lg:flex-row justify-between items-center lg:-mt-32">
+      <div className="flex flex-col my-4 lg:w-md">
+        <h1 className="font-raleway font-black text-2xl lg:text-4xl items-start my-4 leading-snug">
           All your files in one secure location, accessible anywhere.
         </h1>
-        <p className="font-raleway font-light text-lg items-start mb-4 leading-normal">
+        <p className="font-raleway font-light lg:text-lg items-start mb-4 leading-normal">
           Fylo stores your most important files in one secure location. Access
           them wherever you need, share and collaborate with friends, family,
           and co-workers.
         </p>
-        <div className="flex flex-row justify-between items-center">
+        <div className=" flex flex-col md:flex-row items-center sm:w-48 md:w-44 xl:w-96">
           <input
             type="email"
             placeholder="Enter Your Email"
-            className="flex-grow border border-black py-2 pl-2 rounded-md font-raleway outline-none"
+            className=" lg:flex-grow border min-w-full sm:min-w-fit lg:min-w-full border-1 border-lightGray mb-4 md:mb-0 py-2 pl-2 rounded-md font-raleway outline-none"
           />
-          <button className="ml-5 bg-brightblue py-2.5 px-20 rounded-md font-raleway text-white outline-none">
+          <button className="md:ml-5 bg-brightBlue py-2 md:py-3 lg:py-3 min-w-full md:min-w-fit lg:min-w-fit sm:px-10 min-h-full rounded-md font-raleway text-white outline-none sm:text-sm hover:bg-blue-500 transition duration-300 ease-out">
             Get Started
           </button>
         </div>
       </div>
-      <div className="relative lg:h-md lg:w-md -mt-32">
-        <Image src={files} layout="fill" objectFit="contain" />
+      <div className="relative h-96 w-96 md:h-sm md:w-sm lg:h-md lg:w-md">
+        <Image src={illustration1} layout="fill" objectFit="contain" />
       </div>
     </div>
   );

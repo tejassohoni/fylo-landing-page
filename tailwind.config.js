@@ -6,13 +6,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        vdarkblue: "	#070439",
-        desatdarkblue: "#585989",
-        brightblue: "#3065f8",
-        modcyan: "	#3c9f8f",
-        lightgrayblue: "#f6f6fe",
-        lightgray: "	#bfbfbf",
+        vDarkBlue: "	#070439",
+        desatDarkBlue: "#585989",
+        brightBlue: "#3065f8",
+        modCyan: "	#3c9f8f",
+        lightGrayBlue: "#f6f6fe",
+        lightGray: "	#bfbfbf",
         violet: "#524bd8",
+        teal: "#00d1a4",
+        lightTeal: "	#35edc6",
       },
       fontFamily: {
         raleway: ["Raleway", "sans-serif"],
