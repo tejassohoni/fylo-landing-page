@@ -17,7 +17,7 @@ module.exports = {
         lightTeal: "	#35edc6",
       },
       fontFamily: {
-        raleway: ["Raleway", "sans-serif"],
+        inter: ["Inter"],
       },
       height: {
         400: "400px",

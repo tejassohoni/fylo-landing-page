@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 @layer components {
-  .navbarHover {
+  .navbarOption {
     @apply cursor-pointer hover:text-violet transition duration-300 ease-out;
+  }
+  .footerSubText {
+    @apply font-inter text-lg text-white mb-6;
   }
 }

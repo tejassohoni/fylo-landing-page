@@ -10,7 +10,7 @@ export default function Card() {
           <Image src={quotes} layout="fill" objectFit="contain" />
         </div>
         <div>
-          <p className="font-raleway py-4">
+          <p className="font-inter pt-2 pb-6">
             Fylo has improved our team productivity by an order of magnitude.
             Since making the switch our team has become a well-oiled
             collaboration machine.
@@ -25,10 +25,8 @@ export default function Card() {
               />
             </div>
             <div className="ml-4 flex flex-col">
-              <h2 className="font-raleway text-lg font-semibold">
-                Kyle Burton
-              </h2>
-              <h4 className="font-raleway text-sm">Founder & CEO, Huddle</h4>
+              <h2 className="font-inter text-lg font-semibold">Kyle Burton</h2>
+              <h4 className="font-inter text-sm">Founder & CEO, Huddle</h4>
             </div>
           </div>
         </div>
